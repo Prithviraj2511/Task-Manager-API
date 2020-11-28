@@ -27,6 +27,20 @@
 ```
 npm install
 ```
+#### Config
+The application expects the following environment variables:
+
+```
+PORT
+MONGODB_URL
+JWT_SECRET
+FROM_EMAIL
+SENDGRID_API_KEY
+```
+
+The develompent, and test environment variables should be placed into the following files:
+ * Development - `/config/dev.env`
+ * Test - `/config/test.env`
 
 #### Create User 
 
@@ -64,5 +78,33 @@ GET https://prithviraj-task-manager.herokuapp.com/users/me
 ```
 GET https://prithviraj-task-manager.herokuapp.com/tasks
 ```
+
+## Endpoints
+All endpoints that accepts `POST` and `PATCH` request methods, expect `application/json` content type.
+
+\* - Requires a valid JWT token as an HTTP request header (`Authorization: Bearer <jwt_token>`), which is sent from the authorization endpoints in the response body.
+
+* Authorization
+  * Create user                     - `POST /users`
+  * Login user                      - `POST /users/login`
+* User actions *
+  * Logout user                     - `POST /users/logout`
+  * Logout all users                - `POST /users/logout-all`
+  * Read profile                    - `GET /users/me`
+  * Update user                     - `PATCH /users/me`
+  * Delete user                     - `DELETE /users/me`
+  * Upload avatar                   - `POST /users/me/avatar`
+  * Delete avatar                   - `DELETE /users/me/avatar`
+  * Get user avatar                 - `GET /users/:id/avatar`
+* Task management *
+  * Create task                     - `POST /tasks`
+  * Read tasks                      - `GET /tasks`
+    * completed       - `Boolean`
+    * sortBy          - `<field_name>:asc|desc`
+    * limit           - `Number`
+    * skip            - `Number`
+  * Read task                       - `GET /tasks/:id`
+  * Update task                     - `PATCH /tasks/:id`
+  * Delete task                     - `DELETE /tasks/:id`
 
 and alot more you can find all routes at routers folder.
