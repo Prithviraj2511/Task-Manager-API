@@ -6,15 +6,19 @@
 ## What i used:
 
 * Express(for Restful API and manage routers).
-* Mongoose(NoSql database).
-* validation(validating some data).
+* Mongoose(NoSql database tool for developement and testing).
+* Mongodb Atlas(NoSql database tool for production) 
+* validator(validating some data).
 * Async-Await (for waitting until the process done!).
 * promises(write a cleaner code, instead of callbacks mess).
+* bcrypt (Hashing passwords)
 * JWT(authentication layer).
 * multer(image uploading).
 * sharp(croping and image formatter).
 * sendGrid/email.
 * heroku (deployment).
+* postman (testing)
+* jest (Automated testing)
 
 
 ## Getting Started
