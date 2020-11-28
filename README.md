@@ -4,6 +4,9 @@
 * With Task-Manager-API you can create/delete/update user and the same for tasks.
 
 ## What i used:
+[<img align="left" alt="MongoDB" height="60px" src="https://raw.githubusercontent.com/Prithviraj2511/Task-Manager-API/main/Images/mongodb-226029.webp" />]
+[<img align="left" alt="Node.js" height="60px" src="https://raw.githubusercontent.com/Prithviraj2511/Task-Manager-API/main/Images/nodejs.png" />]
+[<img align="left" alt="Express" height="60px" src="https://raw.githubusercontent.com/Prithviraj2511/Task-Manager-API/main/Images/express.png" />]
 
 * Express(for Restful API and manage routers).
 * Mongoose(NoSql database tool for developement and testing).
