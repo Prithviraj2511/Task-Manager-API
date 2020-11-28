@@ -11,7 +11,7 @@
 <img align="left" alt="jest" height="60px" src="https://raw.githubusercontent.com/Prithviraj2511/Task-Manager-API/main/Images/jest.png" /> 
 <img align="left" alt="heroku" height="60px" src="https://raw.githubusercontent.com/Prithviraj2511/Task-Manager-API/main/Images/heroku.png" />
 
-## What i used:
+## What is used:
 * Express(for Restful API and manage routers).
 * Mongoose(NoSql database tool for developement and testing).
 * Mongodb Atlas(NoSql database tool for production). 
