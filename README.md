@@ -9,7 +9,6 @@
 * Mongoose(NoSql database tool for developement and testing).
 * Mongodb Atlas(NoSql database tool for production) 
 * heroku (deployment).
-
 * validator(validating some data).
 * Async-Await (for waitting until the process done!).
 * promises(write a cleaner code, instead of callbacks mess).
@@ -18,7 +17,6 @@
 * multer(image uploading).
 * sharp(croping and image formatter).
 * sendGrid/email.
-
 * postman (testing)
 * jest (Automated testing)
 
